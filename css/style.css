@@ -467,7 +467,7 @@ a {
   line-height: calc(
  16px + (20 - 16) * (100vw - 320px) / (1920 -
  320));
-  width: 60%;
+  width: 100%;
 }
 
 @media (max-width: 876px) {
