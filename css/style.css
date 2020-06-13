@@ -121,6 +121,7 @@ a {
       -ms-flex-align: start;
           align-items: start;
   padding: 40px;
+  border-radius: 7px;
 }
 
 @media (max-width: 876px) {
@@ -202,6 +203,7 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-radius: 7px;
 }
 
 @media (max-width: 876px) {
@@ -235,7 +237,7 @@ a {
           justify-content: space-between;
 }
 
-@media (max-width: 876px) {
+@media (max-width: 1160px) {
   .map-block {
     padding: 15px;
     -ms-flex-pack: distribute;
@@ -347,6 +349,7 @@ a {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
+  border-radius: 7px;
 }
 
 @media (max-width: 876px) {
@@ -470,6 +473,12 @@ a {
   width: 100%;
 }
 
+@media (max-width: 876px) {
+  .text {
+    width: 100%;
+  }
+}
+
 .text a:hover {
   text-decoration: underline;
 }
@@ -491,6 +500,7 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-radius: 7px;
 }
 
 @media (max-width: 876px) {
