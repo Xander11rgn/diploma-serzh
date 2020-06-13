@@ -2,6 +2,8 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 body,
@@ -140,8 +142,12 @@ a {
 
 .title {
   width: 100%;
-  font-size: calc( 14px + (40 - 14) * (100vw - 320px) / (1920 - 320));
-  line-height: calc( 14px + (40 - 14) * (100vw - 320px) / (1920 - 320));
+  font-size: calc(
+ 14px + (40 - 14) * (100vw - 320px) / (1920 -
+ 320));
+  line-height: calc(
+ 14px + (40 - 14) * (100vw - 320px) / (1920 -
+ 320));
   margin-bottom: 30px;
   font-weight: bold;
   letter-spacing: 1.3px;
@@ -159,15 +165,23 @@ a {
   height: -moz-max-content;
   height: max-content;
   font-size: 20px;
-  font-size: calc( 12px + (20 - 12) * (100vw - 320px) / (1920 - 320));
-  line-height: calc( 12px + (20 - 12) * (100vw - 320px) / (1920 - 320));
+  font-size: calc(
+ 12px + (20 - 12) * (100vw - 320px) / (1920 -
+ 320));
+  line-height: calc(
+ 12px + (20 - 12) * (100vw - 320px) / (1920 -
+ 320));
   text-align: left;
 }
 
 @media (max-width: 820px) {
   .text-panel {
-    font-size: calc( 14px + (28 - 14) * (100vw - 320px) / (1920 - 320));
-    line-height: calc( 14px + (28 - 14) * (100vw - 320px) / (1920 - 320));
+    font-size: calc(
+ 14px + (28 - 14) * (100vw - 320px) / (1920 -
+ 320));
+    line-height: calc(
+ 14px + (28 - 14) * (100vw - 320px) / (1920 -
+ 320));
   }
 }
 
@@ -233,14 +247,22 @@ a {
   width: 100%;
   text-align: center;
   text-transform: uppercase;
-  font-size: calc( 14px + (30 - 14) * (100vw - 320px) / (1920 - 320));
-  line-height: calc( 30px + (30 - 30) * (100vw - 320px) / (1920 - 320));
+  font-size: calc(
+ 14px + (30 - 14) * (100vw - 320px) / (1920 -
+ 320));
+  line-height: calc(
+ 30px + (30 - 30) * (100vw - 320px) / (1920 -
+ 320));
 }
 
 @media (max-width: 820px) {
   .map-title {
-    font-size: calc( 20px + (30 - 20) * (100vw - 320px) / (1920 - 320));
-    line-height: calc( 30px + (30 - 30) * (100vw - 320px) / (1920 - 320));
+    font-size: calc(
+ 20px + (30 - 20) * (100vw - 320px) / (1920 -
+ 320));
+    line-height: calc(
+ 30px + (30 - 30) * (100vw - 320px) / (1920 -
+ 320));
   }
 }
 
@@ -265,6 +287,16 @@ a {
       -ms-user-select: none;
           user-select: none;
   cursor: pointer;
+}
+
+.button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.button:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 
 .bottom {
@@ -429,8 +461,12 @@ a {
 
 .text {
   font-size: 20px;
-  font-size: calc( 16px + (20 - 16) * (100vw - 320px) / (1920 - 320));
-  line-height: calc( 16px + (20 - 16) * (100vw - 320px) / (1920 - 320));
+  font-size: calc(
+ 16px + (20 - 16) * (100vw - 320px) / (1920 -
+ 320));
+  line-height: calc(
+ 16px + (20 - 16) * (100vw - 320px) / (1920 -
+ 320));
   width: 60%;
 }
 
@@ -438,6 +474,10 @@ a {
   .text {
     width: 100%;
   }
+}
+
+.text a:hover {
+  text-decoration: underline;
 }
 
 .right-bottom {
@@ -506,13 +546,21 @@ a {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 30px;
-  font-size: calc( 10px + (24 - 10) * (100vw - 320px) / (1920 - 320));
-  line-height: calc( 12px + (26 - 12) * (100vw - 320px) / (1920 - 320));
+  font-size: calc(
+ 10px + (24 - 10) * (100vw - 320px) / (1920 -
+ 320));
+  line-height: calc(
+ 12px + (26 - 12) * (100vw - 320px) / (1920 -
+ 320));
 }
 
 @media (max-width: 820px) {
   .report-title {
-    font-size: calc( 15px + (24 - 15) * (100vw - 320px) / (1920 - 320));
-    line-height: calc( 18px + (26 - 18) * (100vw - 320px) / (1920 - 320));
+    font-size: calc(
+ 15px + (24 - 15) * (100vw - 320px) / (1920 -
+ 320));
+    line-height: calc(
+ 18px + (26 - 18) * (100vw - 320px) / (1920 -
+ 320));
   }
 }
