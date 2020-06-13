@@ -470,12 +470,6 @@ a {
   width: 100%;
 }
 
-@media (max-width: 876px) {
-  .text {
-    width: 100%;
-  }
-}
-
 .text a:hover {
   text-decoration: underline;
 }
